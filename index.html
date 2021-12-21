@@ -1,0 +1,113 @@
+<!DOCTIPE HTML>
+
+<html>
+<head>
+<base href="MAIN.html">
+<meta charset="utf-8">
+<title> MAIN </title>
+<meta name="description" content="My first document in HTML5">
+<meta name="autor" content="Anatol">
+
+<style>
+a:link {color:blue; text-decoration:none}
+a:visited {color:pink; text-decoration:none}
+a:hover {color:red; text-decoration:underline}
+a:active {color:yellow; text-decoration:underline}
+
+ol#menu li
+{
+display:inline;
+}
+</style>
+</head>
+
+<body>
+<div style="color:blue;">
+<p id="a1">Мои цели</p>
+
+<a style="background-color:yellow" href="https://ru.wikipedia.org/wiki/Audi">ИНФО</a>
+
+<figure>
+<figcaption>АУДИ</figcaption>
+<a href="page2.html">
+<img src="https://www.autodela.ru/assets/images/news/honda/Audi/Audi_logo_350.jpg" alt="AUDI">
+</a>
+</figure>
+
+<h2>AUDI топ</h2>
+<ol id="menu">
+<li>Мечтать о АУДИ</li>
+<li>Копить на AUDI</li>
+<li>Купить AUDI</li>
+</div>
+<div style="color:brown;">
+<p>AUDI A7</p> 
+<p>AUDI RS6</p> 
+<p>AUDI Q8</p> 
+<p>AUDI Q7</p> 
+<p>AUDI A4</p> 
+<p>AUDI E-TRON</p> 
+<p>
+<p>
+<html>
+<head>
+<style>
+body {
+ color: white;
+ text-align: center;
+ font-size: 24px;
+ line-height: 3;
+}
+.gr_header { grid-area: header; background: gray;}
+.gr_footer { grid-area: footer; background: red;}
+.gr_main { grid-area: main; background: darkslateblue;}
+.gr_left { grid-area: left; background: dodgerblue}
+.gr_right { grid-area: right; background: silver;}
+.gr {
+ display: grid;
+ grid-template-areas: "header header header"
+ "left main right"
+"footer footer footer";
+ grid-template-columns: 150px 1fr 150px;
+ grid-template-rows: 100px
+ 1fr
+ 100px;
+ min-height: 100vh;
+}
+@media screen and (max-width: 600px) {
+ .gr {
+ grid-template-areas: "header"
+ "left"
+"main"
+"right"
+ "footer";
+ grid-template-columns: 100%;
+ grid-template-rows: 100px
+ 50px
+1fr
+50px
+30px;
+ }
+}
+</style>
+</head>
+<body class="gr">
+ <header class="gr_header">Скорее </header>
+ <main class="gr_main">Заполняй </main>
+ <aside class="gr_left">Заявку</aside>
+ <aside class="gr_right">И выбирай </aside>
+ <footer class="gr_footer">AUDI по душе </footer>
+</body>
+</html>
+<p><form>
+<input name="name" type="text" class="feedback-input" placeholder="Имя" />
+<input name="email" type="text" class="feedback-input" placeholder="Номер телефона" />
+<textarea name="text" class="feedback-input" placeholder="Комментарий"></textarea>
+<input type="submit" value="обнови"/>
+</form>
+<a href="https://www.audi.ru/ru/web/ru.html"> AUDI.ru </a>
+<a href="https://auto.ru/yoshkar-ola/cars/audi/all/?geo_id=20627"> Б\У AUDI </a></p> 
+<a href="https://www.youtube.com/channel/UC9PZIl0O3zRg02z8xpG9A1w" target="_blank">youtube AudiRussia</a>
+</div>
+</body>
+</html>
